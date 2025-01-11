@@ -29,7 +29,7 @@ This library is a simple VAT calculator.
 
 ## Installation
 
-You can install this package by simply running `composer require addeeandra/vat-calculator-id`
+You can install this package by simply running `composer require addeeandra/vat-calculator`
 
 ## How to use
 

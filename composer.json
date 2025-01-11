@@ -1,0 +1,59 @@
+{
+    "name": "addeeandra/vat-calculator-id",
+    "description": "VAT Calculator",
+    "keywords": [
+        "laravel",
+        "vat-calculator-id"
+    ],
+    "homepage": "https://github.com/addeeandra/vat-calculator-id",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aditya Chandra",
+            "email": "addeeandra@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2|^8.3|^8.4",
+        "spatie/laravel-package-tools": "^1.16",
+        "illuminate/contracts": "^10.0||^11.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.14",
+        "nunomaduro/collision": "^8.1.1||^7.10.0",
+        "larastan/larastan": "^2.9",
+        "pestphp/pest": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Addeeandra\\VatCalculator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Addeeandra\\VatCalculator\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "analyse": "vendor/bin/phpstan analyse",
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Addeeandra\\VatCalculator\\VatCalculatorServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

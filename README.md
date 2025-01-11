@@ -1,3 +1,18 @@
+<p align="center">
+    <h1 align="center">VAT Calculator</h1>
+    <p align="center">Configurable VAT Rate &amp; Calculator</p>
+    <p align="center">
+        <a href="https://github.com/addeeandra/vat-calculator/actions">
+            <img alt="GitHub Workflow Status (main)" src="https://github.com/addeeandra/vat-calculator/actions/workflows/tests.yml/badge.svg"/>
+        </a>
+        <a href="https://packagist.org/packages/addeeandra/paranoia">
+            <img alt="Latest Stable Version" src="https://img.shields.io/packagist/v/addeeandra/vat-calculator"/>
+        </a>
+    </p>
+</p>
+
+------
+
 # Vat Calculator ID
 
 This library is a simple VAT calculator.

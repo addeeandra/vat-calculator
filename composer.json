@@ -1,11 +1,11 @@
 {
-    "name": "addeeandra/vat-calculator-id",
+    "name": "addeeandra/vat-calculator",
     "description": "VAT Calculator",
     "keywords": [
         "laravel",
-        "vat-calculator-id"
+        "vat-calculator"
     ],
-    "homepage": "https://github.com/addeeandra/vat-calculator-id",
+    "homepage": "https://github.com/addeeandra/vat-calculator",
     "license": "MIT",
     "authors": [
         {
